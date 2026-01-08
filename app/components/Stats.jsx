@@ -1,5 +1,6 @@
 export default function(){
-    return <div className="ring-1 text-center max-w-7xl mx-auto   ring-white/10 ring-inset w-full flex gap-4 justify-evenly  py-12">
+    return <div className="w-full  ring-1 ring-white/10 ">
+        <div className=" text-center  max-w-7xl mx-auto   flex gap-4 justify-evenly  py-12">
         <div className="lg:space-y-4 py-4" >
             <div className="text-[#FF541F] text-lg md:text-xl lg:text-2xl">Clients</div>
             <div className="text-white font-bold text-2xl lg:text-4xl" >120K+</div>
@@ -20,5 +21,6 @@ export default function(){
         
         </div>
         
+    </div>
     </div>
 }

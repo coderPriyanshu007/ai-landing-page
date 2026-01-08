@@ -19,12 +19,12 @@ export default function Home() {
         
         
           {/* Hero section */}
-          <section className="w-full">
+          <section className="w-full py-12 md:py-16 lg:py-20  ">
             <Hero />
           </section>
 
           {/* stats */}
-          <section className=" w-full py-16 mt-5 bg-linear-to-t from-black from-50% to-transparent">
+          <section className=" w-full  py-12 md:py-16 lg:py-20 bg-linear-to-t from-black from-50% to-transparent">
             <Stats />
           </section>
 
@@ -32,14 +32,14 @@ export default function Home() {
 
          
           {/* features section */}
-          <section className="w-full bg-black">
+          <section className="w-full py-12 md:py-16 lg:py-20 bg-black">
             <Features />
           </section>
 
 
 
           {/* Portfolio section */}
-          <section className="w-full mt-24">
+          <section className="w-full py-12 md:py-16 lg:py-20 ">
             <div className="max-w-7xl px-4 md:px-6 lg:px-8 xl:px-2  mx-auto">
               <div className="max-w-4xl mx-auto flex flex-col lg:flex-row lg:gap-4  ">
                 <div className="text-white/60">2025</div>
@@ -114,7 +114,7 @@ export default function Home() {
           </section>
 
           {/* plans section */}
-          <section className="w-full relative mt-20">
+          <section className="w-full  py-12 md:py-16 lg:py-20 relative ">
             <div className="md:w-[90%] w-full -top-100 md:top-0 absolute h-full -z-10 opacity-60 ">
               {/* layer 1 gradient from l */}
               <div className="absolute hidden md:block inset-0 bg-gradient-to-r from-transparent from-90% to-black   z-10"></div>
@@ -148,9 +148,9 @@ export default function Home() {
 
 
           {/* FAQ */}
-          <section className="w-full relative    lg lg:bg-transparent   pt-20">
+          <section className="w-full relative py-12 md:py-16 lg:py-20   lg lg:bg-transparent   ">
             {/* angular gradient */}
-            <div className=" size-150 md:size-250 lg:size-300 absolute top-100 right-0 translate-x-[20%] rounded-full blur-[200px] bg-conic from-[#FA5424] via-[#C22C00] via-[#982300] to-[#FA5424] -z-10 opacity-20 ">
+            <div className=" size-150 md:size-250 lg:size-300 absolute top-100 -z-1  right-0 translate-x-[20%] rounded-full blur-[200px] bg-conic from-[#FA5424] via-[#C22C00] via-[#982300] to-[#FA5424] -z-10 opacity-20 ">
 
             </div>
 
@@ -207,7 +207,7 @@ export default function Home() {
           </section>
 
           {/* CTA section */}
-          <section className="w-full relative my-10">
+          <section className="w-full relative py-12 md:py-16 lg:py-20 ">
             {/* lines rotated to 45deg from right */}
             <div className=" absolute top-1/2 w-full  h-10  rotate-45 origin-right bg-gradient-to-l from-white/6 via-white/10 to-transparent -z-10"></div>
             <div className=" absolute bottom-0 w-full  h-10 rotate-45 origin-right bg-gradient-to-l from-white/6 via-white/10 to-transparent -z-10 "></div>
@@ -218,9 +218,9 @@ export default function Home() {
                 <div
                   style={{
                     backgroundImage: "url(/images/ctaBackground.png)",
-                    backgroundSize: "5%",
+                    backgroundSize: "4%",
                   }}
-                  className="absolute h-full opacity-15 -z-20  inset-0 "
+                  className="absolute h-full opacity-10 -z-20  inset-0 "
                 ></div>
                 {/* radial gradient */}
                 <div

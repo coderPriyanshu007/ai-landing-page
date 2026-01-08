@@ -3,7 +3,7 @@ import TrustedBadge from "./TrustedBadge";
 
 export default function () {
   return (
-    <div className="px-4 md:px-8  w-full mt-20 lg:mt-40 max-w-7xl mx-auto z-20 flex items-center justify-center">
+    <div className="px-4 md:px-8  w-full  mt-20 max-w-7xl mx-auto z-20 flex  justify-center">
       <div className=" w-full  max-w-5xl mx-auto text-white  text-center   space-y-4">
         {/* Happy clients sub section */}
         <TrustedBadge />

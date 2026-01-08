@@ -65,28 +65,27 @@ export default function ({
           <button
             className=" relative
                         flex items-center gap-2
+                       
                         px-6 py-1
                         rounded-md
                         mx-auto
                         text-white text-sm lg:text-base 
-
+                        bg-black
+                        ring-2 ring-white/7
                         bg-black/50
-                        backdrop-blur-[20px]
-
-                        border-1 border-white/20
+                        isolate
+                        z-0
+                        
+                        
+                       
+                        
                     
-                        shadow-[0_10px_10px_rgba(0,0,0,0.10)]
-                        shadow-[0_4px_4px_rgba(0,0,0,0.05)]
-                        shadow-[0_1px_0_rgba(0,0,0,0.05)]
-
-                        before:absolute before:inset-0
-                        before:rounded-full
-                        before:bg-red-600/20
-                        before:blur-xl
-                        before:-z-10
-                        before:p-4
+                        
   "
           >
+            <div className="absolute -z-10 inset-0 bg-conic from-[#FF541F] via-[#FF541F] via-[#FF541F] to-[#FF541F]  opacity-20 scale-150 blur-[20px] ">
+
+            </div>
             <Link href={href}>Subscribe</Link>
             <span className="text-2xl md:text-3xl">›</span>
           </button>

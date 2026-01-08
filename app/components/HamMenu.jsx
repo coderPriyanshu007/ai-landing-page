@@ -5,7 +5,7 @@ import { useState } from "react";
 import { XCircle } from "lucide-react";
 export default function(){
 
-  const [open,setOpen] = useState(true);
+  const [open,setOpen] = useState(false);
     return <>
        <button onClick={()=> setOpen(!open)} className=" lg:hidden rounded-md  backdrop-blur-sm p-1.5  hover:bg-white/10  flex items-center justify-center">
                 
